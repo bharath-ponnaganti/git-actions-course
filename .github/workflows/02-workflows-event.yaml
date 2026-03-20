@@ -1,0 +1,14 @@
+name: Simple Workflow
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello Bharath 👋"
+
+      - name: Print Date
+        run: date
